@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+.myScrollbar-vertical-track {
+  background-color: transparent;
+  width: 10px;
+  transition: opacity 0.3s;
+}
+.myScrollbar-vertical-handler {
+  width: 8px;
+  right: 1px;
+  border-radius: 4px;
+  background-color: #537D8D;
+  transition: opacity 0.3s;
+}
+.myScrollbar-horizontal-track {
+  background-color: transparent;
+  height: 10px;
+  transition: opacity 0.3s;
+}
+.myScrollbar-horizontal-handler {
+  height: 8px;
+  bottom: 1px;
+  border-radius: 4px;
+  background-color: #537D8D;
+  transition: opacity 0.3s;
+}
+.myScrollbar-square {
+  visibility: hidden;
+}
+
+.wfc-container:last-child {
+  opacity: 0;
+}
+
+/* .task-line::after {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 60px;
+  width: 200px;
+  color: blanchedalmond;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+} */
+/* .wfc-container:not(:last-child) .wfc-header {
+  border-right: solid 2px lightgray;
+} */
+
